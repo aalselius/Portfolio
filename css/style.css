@@ -84,12 +84,30 @@ body {
 .skill {
     text-align: center;
     margin-left: 10px; 
+}   
+
+
+.owl-dots {
+    text-align: center;
+}
+.owl-carousel .owl-nav button.owl-next, 
+.owl-carousel .owl-nav button.owl-prev, 
+.owl-carousel button.owl-dot {
+    background: white !important;
+    color: inherit;
+    padding: 5px !important;
+    font: inherit;
+    margin: 5px;
+
 }
 
-
-
-.owl-theme .owl-controls .owl-page span { 
-    background: white; 
+.owl-carousel button.owl-dot.active,
+.owl-carousel button.owl-dot:hover,
+.owl-carousel button.owl-dot:active {
+    background: #e74c3c !important;
+    border: 2px solid white;
+    outline: none;
+    
 }
 
 .chart {
